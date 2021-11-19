@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        Toast.makeText(this,"Welcome",Toast.LENGTH_SHORT).show()
+        Toast.makeText(this,"Welcomeee",Toast.LENGTH_SHORT).show()
 
         setSupportActionBar(binding.toolbar)
 
