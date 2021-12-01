@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/nav_one"
+            android:icon="@drawable/heart_icon"
+            android:title="Item 1"/>
+        <item android:id="@+id/nav_two"
+            android:icon="@drawable/heart_icon"
+            android:title="Item 2"/>
+        <item android:id="@+id/nav_three"
+            android:icon="@drawable/heart_icon"
+            android:title="Item 3"/>
+    </group>
+    <item android:title="Title 1">
+        <menu>
+            <item android:id="@+id/nav_four"
+                android:icon="@drawable/heart_icon"
+                android:title="Item 4"/>
+            <item android:id="@+id/nav_five"
+                android:icon="@drawable/heart_icon"
+                android:title="Item 5"/>
+            <item android:id="@+id/nav_six"
+                android:icon="@drawable/heart_icon"
+                android:title="Item 6"/>
+        </menu>
+    </item>
+</menu>

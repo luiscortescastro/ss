@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_singin"
+    tools:context=".SignInFragment">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/just_icons" />
+
+    <TextView
+        android:id="@+id/signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="10dp"
+        android:font="@font/gss"
+        android:gravity="center"
+        android:text="APPORTAR"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/emailin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signin"
+        android:layout_margin="20dp"
+        android:background="#56DADADA"
+        android:drawableStart="@drawable/persona_icon"
+        android:drawablePadding="10dp"
+        android:hint="@string/email"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailin"
+        android:layout_margin="20dp"
+        android:background="#56DADADA"
+        android:drawableStart="@drawable/lock_icon"
+        android:drawablePadding="10dp"
+        android:hint="@string/Contraseña"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:backgroundTint="#1B801F"
+        app:cornerRadius="7dp"
+        android:text="@string/iniciar_sesion" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginbtn"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:font="@font/gss"
+        android:gravity="center"
+        android:text="No te has registrado? Registrate"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:font="@font/gss"
+        android:gravity="center"
+        android:text="Olvidé mi contraseña"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tercon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/forgot"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:font="@font/gss"
+        android:gravity="center"
+        android:text="Ver términos y condiciones"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+</RelativeLayout>

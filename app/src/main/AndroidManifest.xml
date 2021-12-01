@@ -10,12 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SS">
         <activity
+            android:name=".CalculoFragment"
+            android:exported="false"
+            android:label="@string/title_activity_calculo_fragment"
+            android:theme="@style/Theme.SS.NoActionBar" />
+        <activity
             android:name=".MainActivity"
-            android:exported="false" />
+            android:theme="@style/Theme.SS.NoActionBar" />
         <activity
             android:name=".SplashScreenActivity"
-            android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.SS.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
