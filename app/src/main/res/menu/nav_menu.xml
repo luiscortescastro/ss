@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group>
-        <item android:id="@+id/nav_one"
-            android:icon="@drawable/heart_icon"
-            android:title="Item 1"/>
-        <item android:id="@+id/nav_two"
-            android:icon="@drawable/heart_icon"
-            android:title="Item 2"/>
-        <item android:id="@+id/nav_three"
-            android:icon="@drawable/heart_icon"
-            android:title="Item 3"/>
+        <item android:id="@+id/calculoFragment"
+            android:icon="@drawable/calculate_icon"
+            android:title="Calcular"/>
+        <item android:id="@+id/profileFragment"
+            android:icon="@drawable/persona_black_icon"
+            android:title="Perfil"/>
+        <item android:id="@+id/commentsFragment"
+            android:icon="@drawable/comm_icon"
+            android:title="Comentarios"/>
+        <item android:id="@+id/aboutFragment"
+            android:icon="@drawable/info_icon"
+            android:title="About"/>
+        <item android:id="@+id/signOut"
+            android:icon="@drawable/salir_icon"
+            android:title="Cerrar Sesión"/>
     </group>
-    <item android:title="Title 1">
+    <!--<item android:title="Title 1">
         <menu>
             <item android:id="@+id/nav_four"
                 android:icon="@drawable/heart_icon"
@@ -23,5 +29,5 @@
                 android:icon="@drawable/heart_icon"
                 android:title="Item 6"/>
         </menu>
-    </item>
+    </item>-->
 </menu>

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:id="@+id/nav_header"
     android:background="#162534"
     android:clickable="true"
     android:focusable="true"
@@ -16,12 +15,25 @@
         android:id="@+id/imageH"
         android:layout_width="64dp"
         android:layout_height="64dp"
-        android:src="@drawable/just_icons"/>
+        android:src="@drawable/persona_black_icon"/>
     <TextView
-        android:id="@+id/textH"
+        android:id="@+id/usernameHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="16dp"
-        android:text="Menu"
+        android:layout_marginTop="10dp"
+        android:text="NiceUser"
+        android:textStyle="bold"
+        android:layout_marginStart="70dp"
+        android:textSize="16sp"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
-</LinearLayout>
+    <TextView
+        android:id="@+id/online"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Online"
+        android:layout_marginStart="70dp"
+        android:textSize="16sp"
+        android:textColor="#8BC34A"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+</RelativeLayout>

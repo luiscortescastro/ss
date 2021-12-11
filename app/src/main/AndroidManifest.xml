@@ -10,16 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SS">
         <activity
-            android:name=".CalculoFragment"
+            android:name=".AuthActivity"
             android:exported="false"
-            android:label="@string/title_activity_calculo_fragment"
+            android:label="@string/title_activity_auth"
             android:theme="@style/Theme.SS.NoActionBar" />
-        <activity
-            android:name=".MainActivity"
-            android:theme="@style/Theme.SS.NoActionBar" />
-        <activity
-            android:name=".SplashScreenActivity"
-            android:theme="@style/Theme.SS.NoActionBar">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

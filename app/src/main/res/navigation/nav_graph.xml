@@ -3,26 +3,39 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
-
+    app:startDestination="@id/calculoFragment">
     <fragment
-        android:id="@+id/FirstFragment"
-        android:name="com.example.ss.SignInFragment"
-        android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
-
+        android:id="@+id/aboutFragment"
+        android:name="com.example.ss.AboutFragment"
+        android:label="Acerca de"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/calculoFragment"
+        android:name="com.example.ss.CalculoFragment"
+        android:label="Calcular"
+        tools:layout="@layout/fragment_calculo">
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/calToRes"
+            app:destination="@id/resultadoFragment" />
     </fragment>
     <fragment
-        android:id="@+id/SecondFragment"
-        android:name="com.example.ss.SecondFragment"
-        android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
-
-        <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
-    </fragment>
+        android:id="@+id/commentsFragment"
+        android:name="com.example.ss.CommentsFragment"
+        android:label="Comentarios"
+        tools:layout="@layout/fragment_comments" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.ss.ProfileFragment"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/resultadoFragment"
+        android:name="com.example.ss.ResultadoFragment"
+        android:label="Resultado"
+        tools:layout="@layout/fragment_resultado" />
+    <fragment
+        android:id="@+id/signOut"
+        android:name="com.example.ss.SignOutFragment"
+        android:label="fragment_sign_out"
+        tools:layout="@layout/fragment_sign_out" />
 </navigation>

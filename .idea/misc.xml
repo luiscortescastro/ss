@@ -9,15 +9,34 @@
         <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/drawable/background_edit.xml" value="0.2526041666666667" />
         <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/drawable/background_signup.xml" value="0.2526041666666667" />
         <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/drawable/background_singin.xml" value="0.2526041666666667" />
-        <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/drawable/calculate_icon.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/drawable/info_icon.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/activity_about_fragment.xml" value="0.22056159420289856" />
+        <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/activity_auth.xml" value="0.21920289855072464" />
+        <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/activity_calculo_fragment.xml" value="0.21557971014492755" />
+        <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/activity_comments_fragment.xml" value="0.21557971014492755" />
+        <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/activity_logout.xml" value="0.21920289855072464" />
+        <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/activity_profile_fragment.xml" value="0.2" />
+        <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/activity_prueba_nav.xml" value="0.22554347826086957" />
+        <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/activity_resultado_fragment.xml" value="0.23505434782608695" />
         <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
         <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/appbar_main.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/blank_fragment.xml" value="0.18614130434782608" />
+        <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/calculo_fragment.xml" value="0.21557971014492755" />
+        <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/comment_cardview_layout.xml" value="0.21422101449275363" />
+        <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/content_auth.xml" value="0.21920289855072464" />
         <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/content_calculo_fragment.xml" value="0.21920289855072464" />
         <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/content_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/dropItem.xml" value="0.115625" />
         <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/dropdown_item.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/fragment_about.xml" value="0.22056159420289856" />
         <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/fragment_calculo.xml" value="0.264" />
+        <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/fragment_comments.xml" value="0.264" />
         <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/fragment_login.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/fragment_profile.xml" value="0.2223731884057971" />
+        <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/fragment_resultado.xml" value="0.2223731884057971" />
+        <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/fragment_sign_out.xml" value="0.21920289855072464" />
         <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/fragment_signin.xml" value="0.22509057971014493" />
         <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/fragment_signup.xml" value="0.22509057971014493" />
         <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/fragment_slideshow.xml" value="0.23645833333333333" />
@@ -26,7 +45,9 @@
         <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/menu.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/layout/nav_header_calculo_fragment.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/menu/calculo.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/menu/dropdown_item.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/menu/fragment_calculo_drawer.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/menu/header.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/menu/menu.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/menu/menu_main.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/Usuario/Desktop/Android/SS/app/src/main/res/menu/nav_menu.xml" value="0.23645833333333333" />

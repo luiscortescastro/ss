@@ -38,4 +38,6 @@
     <string name="menu_slideshow">Slideshow</string>
     <string name="nav_close">Close</string>
     <string name="nav_open">Open</string>
+    <string name="AboutT">Esta aplicación permite calcular el monto de tus aportes a seguridad social si tienes la calidad de contratista independiente o estás vinculado a través de un contrato de prestación de servicios</string>
+    <string name="title_activity_auth">AuthActivity</string>
 </resources>
