@@ -57,7 +57,9 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="20dp"
+        android:focusable="false"
         android:gravity="center"
+        android:inputType="none|number"
         android:text="Nivel de riesgo"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -66,16 +68,16 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/risk"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="59dp"
+        android:layout_height="43dp"
         android:layout_below="@id/ingresos"
-        android:layout_marginStart="170dp">
+        android:layout_marginStart="170dp"
+        android:focusable="true">
 
         <AutoCompleteTextView
             android:id="@+id/dropLevel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:autoText="false"
             android:inputType="none" />
 
     </com.google.android.material.textfield.TextInputLayout>

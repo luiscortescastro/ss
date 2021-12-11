@@ -46,7 +46,7 @@ class CalculoFragment : Fragment() {
         //ingresos.inputType = InputType.TYPE_CLASS_NUMBER
 
         riesgo = view.findViewById(R.id.dropLevel)
-        riesgo.inputType = InputType.TYPE_NULL
+        riesgo.inputType = InputType.TYPE_CLASS_NUMBER
         riesgo.showSoftInputOnFocus = false
 
 
