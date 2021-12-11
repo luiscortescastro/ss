@@ -1,14 +1,26 @@
 package com.example.ss
 
+import android.content.Context
 import android.os.Bundle
+import android.text.InputType
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.inputmethod.InputMethodManager
 import android.widget.*
+import androidx.core.content.ContextCompat
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.findNavController
+import androidx.core.content.ContextCompat.getSystemService
+import androidx.core.content.ContextCompat.getSystemService
+
+
+
+
+
+
 
 class CalculoFragment : Fragment() {
 
@@ -31,7 +43,12 @@ class CalculoFragment : Fragment() {
         setArrays(view)
 
         ingresos = view.findViewById(R.id.ingresos)
+        //ingresos.inputType = InputType.TYPE_CLASS_NUMBER
+
         riesgo = view.findViewById(R.id.dropLevel)
+        riesgo.inputType = InputType.TYPE_NULL
+        riesgo.showSoftInputOnFocus = false
+
 
         calcular = view.findViewById(R.id.calcularButton)
         calcular.setOnClickListener {
@@ -50,6 +67,7 @@ class CalculoFragment : Fragment() {
         val drops = fireViewModel.getDrops()
 
         val epsArray = ArrayAdapter(requireContext(), R.layout.dropdown_item, drops[0])
+
         val epsArrayAdapt = myView.findViewById<AutoCompleteTextView>(R.id.dropEPS)
         epsArrayAdapt.setAdapter(epsArray)
 

@@ -101,6 +101,6 @@ class DataViewModel : ViewModel() {
         }
         salud.postValue((base * 0.12).toInt())
         pension.postValue((base * 0.16).toInt())
-        riesgos.postValue((base * risk).toInt())
+        riesgos.postValue((base * risk /100).toInt())
     }
 }
